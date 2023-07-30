@@ -6,7 +6,7 @@ class Bird:
         self.y = 300
         self.velocity = 0
         self.gravity = 1
-        self.flap_power = 15
+        self.flap_power = 10
         self.rect = pygame.Rect(self.x, self.y, 50, 50)
 
     def flap(self):
